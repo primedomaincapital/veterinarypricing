@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Veterinary Pricing: Routine Care, and the Bill That Changes Everything | veterinarypricing.com</title>
+<meta name="description" content="Veterinary Pricing: Routine Care, and the Bill That Changes Everything — aggregated public figures with sources, trend indicators, and methodology.">
+<link rel="canonical" href="https://veterinarypricing.com/market-data">
+<meta property="og:title" content="Veterinary Pricing: Routine Care, and the Bill That Changes Everything | veterinarypricing.com">
+<meta property="og:description" content="Veterinary Pricing: Routine Care, and the Bill That Changes Everything — aggregated public figures with sources, trend indicators, and methodology.">
+<meta property="og:url" content="https://veterinarypricing.com/market-data">
+<meta property="og:type" content="website">
+<style>
+:root{--teal:#0f766e;--deep:#123f3a;--coral:#fb7185;--cream:#fdfbf7;--ink:#1c2420;--muted:#6b7280}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',sans-serif;background:var(--cream);color:var(--ink);overflow-x:hidden;line-height:1.65}
+.serif{font-family:'Newsreader',serif}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;justify-content:space-between;align-items:center;padding:20px 5vw;background:rgba(253,251,247,.92);backdrop-filter:blur(14px);border-bottom:1px solid #ece7db}
+nav .brand{font-weight:700;font-size:15px}
+nav .brand span{color:var(--teal)}
+nav a.cta{background:var(--teal);color:#fff;font-weight:600;font-size:13px;padding:12px 26px;border-radius:30px;text-decoration:none;transition:.3s}
+nav a.cta:hover{background:var(--deep);transform:translateY(-2px)}
+.hero{position:relative;min-height:100vh;display:flex;align-items:center;overflow:hidden}
+.hero-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.hero .bg{position:absolute;inset:0;z-index:0}
+.hero .bg img{width:100%;height:100%;object-fit:cover}
+.hero .bg::after{content:'';position:absolute;inset:0;background:linear-gradient(100deg,rgba(253,251,247,.97) 30%,rgba(253,251,247,.55) 60%,rgba(253,251,247,.15) 100%)}
+.hero-inner{position:relative;z-index:2;padding:120px 5vw 80px;max-width:1200px}
+.badge{display:inline-block;background:var(--coral);color:#fff;font-size:11px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;padding:8px 20px;border-radius:20px;margin-bottom:22px}
+h1{font-family:'Newsreader',serif;font-size:clamp(46px,6.8vw,98px);font-weight:300;line-height:1.04;letter-spacing:-.02em;max-width:800px}
+h1 em{font-style:italic;color:var(--teal)}
+h1 strong{font-weight:700}
+.hero-sub{max-width:580px;margin-top:24px;font-size:19px;color:#4b5563}
+.hero-price{margin-top:34px;display:flex;align-items:center;gap:26px;flex-wrap:wrap}
+.price-tag{font-size:42px;font-weight:700;font-family:'Newsreader',serif}
+.price-tag small{display:block;font-family:'Inter',sans-serif;font-size:11px;font-weight:600;letter-spacing:.24em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+.btn{display:inline-block;background:var(--teal);color:#fff;font-weight:700;font-size:15px;padding:17px 42px;border-radius:30px;text-decoration:none;transition:.3s}
+.btn:hover{background:var(--deep);transform:translateY(-3px);box-shadow:0 14px 36px rgba(15,118,110,.3)}
+.btn.ghost{background:transparent;color:var(--ink);border:1.5px solid #d6cfbc}
+.btn.ghost:hover{border-color:var(--teal);color:var(--teal);box-shadow:none}
+section{padding:140px 5vw}
+.wrap{max-width:1200px;margin:0 auto}
+.sec-label{font-size:12px;letter-spacing:.28em;text-transform:uppercase;color:var(--teal);margin-bottom:16px;font-weight:700}
+h2{font-family:'Newsreader',serif;font-size:clamp(32px,4.2vw,56px);font-weight:500;line-height:1.1;margin-bottom:26px}
+h2 em{font-style:italic;color:var(--teal)}
+.lede{font-size:19px;max-width:700px;color:#4b5563}
+.story{background:#fff;border-radius:24px;padding:70px 5vw;margin:0 3vw}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:54px;margin-top:48px}
+.two-col p{font-size:16.5px;color:#4b5563;margin-bottom:18px}
+.stat-pull{background:var(--teal);color:#fff;border-radius:18px;padding:44px;text-align:center}
+.stat-pull b{display:block;font-family:'Newsreader',serif;font-size:56px;font-weight:700}
+.stat-pull span{font-size:14px;opacity:.85}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:54px}
+.gallery img{width:100%;height:280px;object-fit:cover;border-radius:16px;transition:transform .7s}
+.gallery img:hover{transform:scale(1.04)}
+.stats-band{background:var(--deep);color:#fff;border-radius:24px;margin:0 3vw}
+.stat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:36px;margin-top:44px;text-align:center}
+.stat b{display:block;font-family:'Newsreader',serif;font-size:52px;color:var(--coral);font-weight:700}
+.stat span{font-size:13px;letter-spacing:.1em;text-transform:uppercase;opacity:.75}
+.buyers .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:48px}
+.card{background:#fff;border-radius:18px;padding:40px 34px;box-shadow:0 4px 24px rgba(0,0,0,.05);transition:.3s;border:1px solid #f0ebe0}
+.card:hover{transform:translateY(-6px);box-shadow:0 20px 50px rgba(15,118,110,.12)}
+.card h3{font-family:'Newsreader',serif;font-size:22px;font-weight:700;margin-bottom:12px}
+.card p{font-size:15px;color:#6b7280}
+.card .icon{font-size:32px;margin-bottom:16px;display:block}
+.cta-sec{text-align:center}
+.cta-sec .lede{margin:0 auto 36px}
+.cta-sec .hero-price{justify-content:center}
+footer{padding:54px 5vw;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;border-top:1px solid #ece7db}
+footer p{font-size:13px;color:var(--muted)}
+footer a{color:var(--teal);text-decoration:none;font-weight:600}
+.reveal{opacity:0;transform:translateY(30px);transition:opacity .85s cubic-bezier(.2,.8,.2,1),transform .85s cubic-bezier(.2,.8,.2,1)}
+.reveal.in{opacity:1;transform:none}
+@media(max-width:860px){.two-col,.gallery,.stat-grid,.buyers .cards{grid-template-columns:1fr}h1{font-size:48px}.story,.stats-band{margin:0}}
+
+.insights .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:48px}
+.insights .card .thumb{width:100%;height:200px;object-fit:cover;border-radius:12px;margin-bottom:22px;display:block}
+.insights .card a.read{display:inline-block;margin-top:16px;color:var(--teal);font-weight:700;font-size:14px;text-decoration:none;letter-spacing:.04em}
+.insights .card a.read:hover{color:var(--deep)}
+@media(max-width:860px){.insights .cards{grid-template-columns:1fr}}
+
+.data-wrap{max-width:900px;margin:0 auto;padding:24px 18px 40px}
+.data-wrap h1,.data-wrap h2{overflow-wrap:break-word;word-break:break-word}
+.updated{font-weight:700}
+table.data{width:100%;border-collapse:collapse;margin:20px 0;table-layout:fixed}
+table.data th,table.data td{border:1px solid #c9a86a;padding:10px 8px;text-align:left;vertical-align:top;overflow-wrap:break-word;word-break:break-word;font-size:15px}
+table.data td a{overflow-wrap:break-word;word-break:break-all}
+@media(max-width:480px){table.data,table.data tbody,table.data tr,table.data td{display:block;width:100%;box-sizing:border-box}table.data thead{display:none}table.data tr{margin-bottom:14px;border:1px solid #c9a86a}table.data td{border:none;border-bottom:1px solid #ddd}.data-wrap{padding:16px 12px}}
+.cta a{display:inline-block;padding:14px 22px;min-height:44px;line-height:1.4}
+
+/* Phase 1 assembly 2026-10-31 */
+.toc{border:1px solid currentColor;padding:18px 22px;margin:0 0 32px;max-width:720px}.toc-title{font-weight:600;margin-bottom:8px}.toc ul{margin:0;padding-left:20px}.toc li{margin:4px 0}.toc a{color:inherit}
+@media (max-width:900px){h1{font-size:clamp(44px,11vw,72px)!important}}
+
+/* Phase 1 assembly 2026-10-31 — nav solid correction */
+@media (max-width:900px){nav{background:rgb(253,251,247)!important;backdrop-filter:none!important}}
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "veterinarypricing.com — Veterinary service prices and pet care costs",
+  "description": "Veterinary Pricing: Routine Care, and the Bill That Changes Everything. Aggregated public estimates for information only.",
+  "temporalCoverage": "2022/2025",
+  "dateModified": "2026-10-31",
+  "creator": {
+    "@type": "Organization",
+    "name": "Prime Domain Capital"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Prime Domain Capital"
+  },
+  "url": "https://veterinarypricing.com/market-data",
+  "sameAs": [
+    "https://www.debtdiscipline.com/vet-bill-debt-2026/",
+    "https://thehealthyattitude.com/m-auto/afs/default/rsoc/03a337d9-3ac7-4da1-9cc4-205dfb02e514/is-pet-insurance-worth-it-the-math-that-finally-gives-a-clear-answer?channel=Ch_12880",
+    "https://geekmamas.com/2026/09/25/why-pet-insurance-costs-more-than-you-think-and-how-to-pay-for-it/",
+    "https://www.bestmoney.com/pet-insurance/articles/vet-visit-cost",
+    "https://moneyverge.net/pages/pet-insurance/pet-insurance-cost-2026.html",
+    "http://cluballiance.aaa.com/the-extra-mile/advice/life/is-pet-insurance-worth-it?activity_id=4758408"
+  ]
+}
+</script>
+<style>
+/* Mobile rendering fix 2026-10-31: domain H1 lines, stacked nav, header clearance */
+@media (max-width:900px){
+main h1{overflow-wrap:normal!important;word-break:normal!important}
+nav:not(.toc){flex-direction:column!important;align-items:flex-start!important;gap:4px!important;padding-top:16px!important;padding-bottom:16px!important;padding-left:20px!important;padding-right:20px!important}
+.topbar{flex-direction:column!important;align-items:flex-start!important;gap:4px!important;padding-top:16px!important;padding-bottom:16px!important;padding-left:20px!important;padding-right:20px!important}
+main{padding-top:120px!important}
+main h1{font-size:clamp(30px,8.5vw,58px)!important;line-height:1.15!important}
+}
+</style>
+</head>
+<body>
+<header class="hero">
+<div class="bg"><video class="hero-video" autoplay muted loop playsinline><source src="video/hero.mp4" type="video/mp4"></source></video></div>
+
+<div class="hero-inner">
+<div class="badge reveal">For Sale · Prime Domain Capital</div>
+<h1 class="reveal">What vet care <em>actually</em> costs, <strong>finally in the open.</strong></h1>
+<p class="hero-sub reveal">VeterinaryPricing.com is the category name for pet-care price transparency — trusted by the 90 million families who treat pets as family.</p>
+<div class="hero-price reveal"><div class="price-tag"><small>Buy Now</small>$7,888</div><a class="btn" href="https://www.afternic.com/domain/veterinarypricing.com">Acquire the Domain</a></div>
+</div>
+</header>
+<main class="data-wrap">
+<p class="updated">Last updated: October 31, 2026</p>
+<h1>Veterinary Pricing: Routine Care, and the Bill That Changes Everything</h1>
+<p>Most pet owners budget for the routine visit and meet the real cost somewhere else: an emergency, a surgery, or a chronic condition that runs for years. Routine care has a price measured in hundreds; a single emergency can run into five figures. This page separates the two, because a household that plans only for the first will be unprepared for the second.</p>
+<nav class="toc" aria-label="On this page"><p class="toc-title">On this page</p><ul><li><a href="#figures">Figures</a></li><li><a href="#methodology">Methodology</a></li><li><a href="#what-the-numbers-mean">What the numbers mean</a></li><li><a href="#disclaimer">Disclaimer</a></li></ul></nav>
+<h2 id="figures">Figures</h2>
+<table class="data"><thead><tr><th>Figure</th><th>Current figure</th><th>Prior figure</th><th>Trend</th><th>Source</th></tr></thead><tbody>
+<tr><td>Average cost of last veterinary visit, all pets (AVMA data, as reported)</td><td><strong>$200 (2025)</strong></td><td>$147 (2024)</td><td>▲ Up</td><td><a href="https://www.debtdiscipline.com/vet-bill-debt-2026/">American Veterinary Medical Association data, as reported in 2026 cost coverage</a></td></tr>
+<tr><td>Average annual spending per pet-owning household on animals (AVMA, as reported in the linked 2026 coverage)</td><td><strong>About $1,700 per year</strong></td><td>About $1,500 two years earlier (a $200 increase, as reported)</td><td>▲ Up</td><td><a href="https://thehealthyattitude.com/m-auto/afs/default/rsoc/03a337d9-3ac7-4da1-9cc4-205dfb02e514/is-pet-insurance-worth-it-the-math-that-finally-gives-a-clear-answer?channel=Ch_12880">American Veterinary Medical Association data, as reported</a></td></tr>
+<tr><td>Total U.S. spending on veterinary care (AVMA)</td><td><strong>$44.5 billion (2022)</strong></td><td>Roughly 10% higher than the prior year, as reported</td><td>▲ Up</td><td><a href="https://geekmamas.com/2026/09/25/why-pet-insurance-costs-more-than-you-think-and-how-to-pay-for-it/">American Veterinary Medical Association data, as reported</a></td></tr>
+<tr><td>First-year costs, puppy (exam series, vaccines, spay/neuter, prevention, microchip)</td><td><strong>$755–$1,765</strong></td><td>—</td><td>◆ Baseline (October 2026) — trend tracking starts with the next refresh</td><td><a href="https://www.bestmoney.com/pet-insurance/articles/vet-visit-cost">Best Money price guide, citing AVMA and veterinary expert input</a></td></tr>
+<tr><td>First-year costs, kitten</td><td><strong>$440–$1,425</strong></td><td>—</td><td>◆ Baseline (October 2026) — trend tracking starts with the next refresh</td><td><a href="https://www.bestmoney.com/pet-insurance/articles/vet-visit-cost">Best Money price guide, citing AVMA and veterinary expert input</a></td></tr>
+<tr><td>Spay, dog / Neuter, dog</td><td><strong>$400–$800 / $300–$600</strong></td><td>—</td><td>◆ Baseline (October 2026) — trend tracking starts with the next refresh</td><td><a href="https://www.bestmoney.com/pet-insurance/articles/vet-visit-cost">Best Money price guide, citing AVMA and veterinary expert input</a></td></tr>
+<tr><td>Emergency veterinary visit, typical range</td><td><strong>$800–$1,500 (straightforward cases); $3,000–$10,000 (complex, with surgery or intensive care)</strong></td><td>—</td><td>◆ Baseline (October 2026) — trend tracking starts with the next refresh</td><td><a href="https://www.debtdiscipline.com/vet-bill-debt-2026/">AVMA-based cost coverage, 2026</a></td></tr>
+<tr><td>Dental disease, 80th-percentile cost within 30 days of diagnosis — dog / cat (Nationwide, March 2025)</td><td><strong>$1,284 / $1,517</strong></td><td>—</td><td>◆ Baseline (October 2026) — trend tracking starts with the next refresh</td><td><a href="https://moneyverge.net/pages/pet-insurance/pet-insurance-cost-2026.html">Nationwide analysis of insured pets, March 2025, as reported</a></td></tr>
+<tr><td>Gastroenteritis, 80th-percentile cost — dog / cat (Nationwide, March 2025)</td><td><strong>$702 / $802</strong></td><td>—</td><td>◆ Baseline (October 2026) — trend tracking starts with the next refresh</td><td><a href="https://moneyverge.net/pages/pet-insurance/pet-insurance-cost-2026.html">Nationwide analysis of insured pets, March 2025, as reported</a></td></tr>
+<tr><td>Cruciate (ACL/CCL) surgery — typical cost (CareCredit data)</td><td><strong>$2,299–$4,160</strong></td><td>—</td><td>◆ Baseline (October 2026) — trend tracking starts with the next refresh</td><td><a href="http://cluballiance.aaa.com/the-extra-mile/advice/life/is-pet-insurance-worth-it?activity_id=4758408">CareCredit data, as reported by AAA Club Alliance</a></td></tr>
+<tr><td>Stomach blockage, dog — typical cost (CareCredit data)</td><td><strong>$3,681</strong></td><td>—</td><td>◆ Baseline (October 2026) — trend tracking starts with the next refresh</td><td><a href="http://cluballiance.aaa.com/the-extra-mile/advice/life/is-pet-insurance-worth-it?activity_id=4758408">CareCredit data, as reported by AAA Club Alliance</a></td></tr>
+<tr><td>Cancer therapy — typical cost (CareCredit data)</td><td><strong>$3,980–$5,351</strong></td><td>—</td><td>◆ Baseline (October 2026) — trend tracking starts with the next refresh</td><td><a href="http://cluballiance.aaa.com/the-extra-mile/advice/life/is-pet-insurance-worth-it?activity_id=4758408">CareCredit data, as reported by AAA Club Alliance</a></td></tr>
+</tbody></table>
+<h2 id="methodology">Methodology</h2>
+<p>Included: American Veterinary Medical Association figures as reported in published cost coverage, Nationwide&#x27;s March 2025 analysis of insured-pet costs (80th percentile within 30 days of diagnosis), and CareCredit typical costs as reported by AAA. Excluded: individual clinic price lists, which vary by region and are not market benchmarks; and pet-insurance premiums, which are a separate product from care prices and are not shown here. AVMA figures are cited as reported because the AVMA&#x27;s own tables were not directly verified this session — see SOURCES.md.</p>
+<h2 id="what-the-numbers-mean">What the numbers mean</h2>
+<p>The routine-to-emergency jump is the whole story. A routine visit at $200 is a budget line; a complex emergency at $3,000–$10,000 is a decision under pressure, and published surveys find a large share of owners borrowing to cover it. That is also why the Nationwide figures matter: dental disease at an 80th-percentile $1,284 for a dog is not a rare catastrophe, it is a common condition with a four-figure tail. Planning for pet costs on the price of a checkup alone understates the exposure by an order of magnitude.</p>
+<h2 id="disclaimer">Disclaimer</h2>
+<p>Figures on this page are aggregated public estimates for information only. They are not investment advice, legal advice, medical advice, or a quote for any specific case, procedure, or purchase. Individual prices vary by location, provider, severity, and contract. Verify any figure against its linked source before relying on it.</p>
+<div class="cta">
+<p><strong>veterinarypricing.com is available for purchase at $7,888.</strong></p>
+<p><a href="https://www.afternic.com/domain/veterinarypricing.com">Buy veterinarypricing.com now — $7,888</a></p>
+<p>Questions: <a href="mailto:info@primedomaincapital.com">info@primedomaincapital.com</a></p>
+</div>
+<h2>Sources</h2>
+<ul>
+<li><a href="https://www.debtdiscipline.com/vet-bill-debt-2026/">AVMA routine-visit costs, as reported in 2026 coverage</a></li>
+<li><a href="https://thehealthyattitude.com/m-auto/afs/default/rsoc/03a337d9-3ac7-4da1-9cc4-205dfb02e514/is-pet-insurance-worth-it-the-math-that-finally-gives-a-clear-answer?channel=Ch_12880">AVMA annual spending, as reported</a></li>
+<li><a href="https://geekmamas.com/2026/09/25/why-pet-insurance-costs-more-than-you-think-and-how-to-pay-for-it/">AVMA total spending, as reported</a></li>
+<li><a href="https://www.bestmoney.com/pet-insurance/articles/vet-visit-cost">Best Money — vet visit cost guide (AVMA-cited)</a></li>
+<li><a href="https://moneyverge.net/pages/pet-insurance/pet-insurance-cost-2026.html">Nationwide March 2025 insured-pet cost analysis, as reported</a></li>
+<li><a href="http://cluballiance.aaa.com/the-extra-mile/advice/life/is-pet-insurance-worth-it?activity_id=4758408">CareCredit typical costs, as reported by AAA Club Alliance</a></li>
+</ul>
+<h2>Changelog</h2>
+<ul><li>October 2026: Initial edition — AVMA routine-visit and spending figures, first-year and spay/neuter ranges, emergency ranges, Nationwide condition costs, and CareCredit surgery costs.</li>
+<li><strong>October 31, 2026:</strong> Visit row relabeled to its verified measure (average last-visit cost across pets, not routine-only); household $1,700 row re-pinned to its cited AVMA cut in the linked coverage. No figure changed.</li></ul>
+</main>
+<footer><p>Offered by <strong>Prime Domain Capital</strong> · Private holder of category-defining domains</p><p><a href="mailto:info@primedomaincapital.com">info@primedomaincapital.com</a></p></footer>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "1407571ec8bc45c3a082c91096558135"}'></script>
+<p class="back-home" style="display:block;text-align:center;padding:28px 16px;font-size:15px"><a href="https://veterinarypricing.com/" style="color:inherit">&larr; Back to veterinarypricing.com</a></p>
+</body>
+</html>
